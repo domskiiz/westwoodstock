@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'gooddog_plainregular';
+  src: url('gooddp__-webfont.woff2') format('woff2'),
+       url('gooddp__-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  background: #0C0C0A;
+}
+
+body {
+  background: linear-gradient(#0C0C0A, #3A2136, #5E3769, #6A5E97, #6274A7, #5ABCBE, #84C5B1);
+  margin: 0;
+}
+
+#title {
+  height: 20em;
+}
+
+#title-text {
+  position: absolute;
+  height: 20em;
+  top: 6em;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4em 4em 1em 4em;
+}
+
+.tagline {
+  position: absolute;
+  top: 14em;
+  left: 2em;
+  right: 2em;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  padding: 1em;
+  text-align: center;
+  color: white;
+}
+
+.artists {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+}
+
+#artists-img {
+  height: 18em;
+}
