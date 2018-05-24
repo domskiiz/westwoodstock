@@ -38,6 +38,14 @@ body {
   margin: 1em;
 }
 
+.indiegogo:hover {
+  background-color: rgba(90, 188, 190, 0.75);
+}
+
+.ticket:hover {
+  background-color: rgba(132, 197, 177, 0.75);
+}
+
 .ticket {
   background-color: #84C5B1;
 }
