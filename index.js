@@ -2,7 +2,7 @@
 
 var express = require('express');
 var path = require('path');
-// var favicon = require('serve-favicon');
+var favicon = require('serve-favicon');
 
 var app = express();
 
@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, '/public')));
 // Set view engine to HTML so app can render html files
 app.engine('html', require('ejs').renderFile);
 // Serve favicon
-// app.use(favicon(path.join(__dirname + '/resources/assets/favicon.ico')));
+app.use(favicon(path.join(__dirname + '/public/assets/favicon.png')));
 
 // Routes
 app.get('/', function(req, res) {
