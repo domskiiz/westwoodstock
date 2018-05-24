@@ -2,20 +2,75 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WestWoodstock</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-    <div class="logo">
-      <img src="/assets/ellipse.png" alt="">
-      <img id="title-text" src="/assets/title.png" alt="">
-      <div class="tagline">
-        A FREE UCLA STUDENT MUSIC FESTIVAL HOSTED IN THE HEART OF WESTWOOD, FEATURING:
+    <div style="overflow-x: hidden">
+      <div class="logo container">
+        <img id="ellipse" src="/assets/ellipse.png" alt="">
+        <img id="title-text" src="/assets/title.png" alt="">
+        <div class="tagline">
+          A FREE UCLA STUDENT MUSIC FESTIVAL HOSTED IN THE HEART OF WESTWOOD
+        </div>
       </div>
-    </div>
-    <div class="artists">
-      <img id="artists-img" src="/assets/artists.png" alt="">
+      <div class="links container">
+        <a target="_blank" href="https://www.eventbrite.com/e/second-annual-westwoodstock-student-music-festival-tickets-45628139995">
+          <div class="ticket button container">
+            RESERVE TICKETS
+          </div>
+        </a>
+        <a target="_blank" href="https://www.indiegogo.com/projects/second-annual-westwoodstock-student-music-festival-community">
+          <div class="indiegogo button container">
+            INDIEGOGO
+          </div>
+        </a>
+      </div>
+      <div class="artists container flex-col">
+        <div id="featuring-text">FEATURING</div>
+        <img id="artists-img" src="/assets/artists.png" alt="">
+      </div>
+      <div class="about container flex-col">
+        <div>
+          Welcome to the Second Annual Westwoodstock Student Music Festival!
+          We'll be showcasing the amazing talent of UCLA student musicians
+          in a ten hour music festival, right on Broxton Avenue.
+          The event will take place on Saturday June 2nd from 3:00pm to 1:00am -
+          an all-day block party! We'll also be partnering with local restaurants
+          and bars to offer special drink menus for the 21+ crowd.
+        </div>
+        <br>
+        <div>
+          Westwoodstock is an annual student music festival produced by
+          House of Balloons, a group of four UCLA students and alumni
+          (Jonathan Liu '18, Tim Connors '18, John Colarusso '18, Sriram
+          Ramikrishnan '17) who share a passion for music and event production.
+          House of Balloons has a proven track record of throwing unique and
+          exciting music events, including the first annual Westwoodstock,
+          Merry Litmas, Trust the Culture, and Rhythm & Booze.
+          Music event production is what we know and we want to
+          bring that passion to the greater Westwood and UCLA community.
+        </div>
+      </div>
+      <div class="footer container">
+        <img id="silhouette" src="/assets/silhouette.png" alt="">
+        <div class="sponsors container">
+          <div class="container row1">
+            <img class="sponsor-img" src="/assets/sep-logo.png" alt="">
+            <img class="sponsor-img" src="/assets/vespucci-logo.png" alt="">
+            <img class="sponsor-img" src="/assets/bird-logo.png" alt="">
+          </div>
+          <div class="container row2">
+            <img class="sponsor-img" src="/assets/ww-village-logo.png" alt="">
+            <img class="sponsor-img" src="/assets/kind-logo.png" alt="">
+            <img class="sponsor-img" src="/assets/pmu-logo.png" alt="">
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
