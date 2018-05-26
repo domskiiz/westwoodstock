@@ -1,2 +1,0 @@
-# westwoodstock
-Westwoodstock website
